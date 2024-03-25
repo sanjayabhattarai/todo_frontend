@@ -24,7 +24,7 @@ class Todos {
     }
     addTask = async (text) => {
         return new Promise(async (resolve, reject) => {
-            fetch(this.#backend_url + '/new', {
+            fetch(this.#backend_url + 'new', {
                 method: 'post',
                 headers: {
                     'Content-Type': 'application/json'
