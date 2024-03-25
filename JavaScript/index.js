@@ -1,5 +1,5 @@
-const BACKEND_ROOT_URL = 'http://localhost:3001';
-// const BACKEND_ROOT_URL = '';
+// const BACKEND_ROOT_URL = 'http://localhost:3001';
+const BACKEND_ROOT_URL = 'https://todo-backend-doxu.onrender.com/';
 
 import { Todos } from './class/Todos.js';
 
